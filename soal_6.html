@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Fundamentals</title>
+    <link rel="stylesheet" href="soal_6.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Kiri: Logo -->
+        <a href="/" class="logo">
+            <img src="Asset/Container.svg" alt="">
+            <span>ModernMinimal</span>     
+        </a>
+
+        <!-- Tengah: Menu navigasi -->
+        <nav class="main-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="../frontend-fundamentals/soal_6b.html">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+            </ul>
+        </nav>
+
+        <!-- Kanan: Contact -->
+        <a href="#contact" class="contact-button">Contact</a>
+    </header>
+
+    <div class="container">
+        <section class="hero" aria-labelledby="hero-title">
+
+            <div class="hero-content">
+                <h1 id="hero-title">
+                    Simplicity is the ultimate sophistication.
+                </h1>
+
+                <p>
+                    Experience a platform designed for clarity. We remove the noise
+                    so you can focus on what truly matters. Welcoming, empowering,
+                    and focused tech for everyone.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#learn-more" class="btn-primary">
+                        Learn More
+                    </a>
+
+                    <a href="#demo" class="btn-secondary">
+                        View Demo
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="Asset/Background.svg"
+                    alt="Laptop displaying a platform dashboard"
+                >
+            </div>
+
+        </section>
+
+        <section class="features" aria-label="Features">
+
+            <!-- Interactive Counter -->
+            <article class="counter-card">
+                <div class="icon">
+                    <img src="Asset/mouse.svg" alt="img">
+                </div>
+
+                <h2>Interactive Counter</h2>
+
+                <p>Try it out below.</p>
+
+                <output id="count">0</output>
+
+                <div class="counter-actions">
+                    <button type="button" id="increase">
+                        Increase
+                    </button>
+
+                    <button type="button" id="reset">
+                        Reset
+                    </button>
+                </div>
+            </article>
+
+
+            <!-- Fast & Reliable -->
+            <article class="card">
+                <div class="icon">
+                    <img src="Asset/flash.svg" alt="img">
+                </div>
+
+                <h2>Fast &amp; Reliable</h2>
+
+                <p>
+                    Built on modern architecture ensuring your tasks are
+                    completed with lightning speed.
+                </p>
+
+                <a href="#explore">
+                    Explore →
+                </a>
+            </article>
+
+
+            <!-- Secure by Design -->
+            <article class="card">
+                <div class="icon">
+                    <img src="Asset/protection.svg" alt="img">
+                </div>
+
+                <h2>Secure by Design</h2>
+
+                <p>
+                    Enterprise-grade security principles applied to a
+                    consumer-friendly interface.
+                </p>
+
+                <span class="badge">
+                    New Feature
+                </span>
+            </article>
+
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <a class="logo-footer" href="/">ModernMinimal</a>
+
+            <a class="privacy-policy" href="/privacy-policy">Privacy Policy</a>
+
+            <p>&copy; 2024 ModernMinimal. All rights reserved.</p>
+
+        </div>
+    </footer>
+    <script src="soal_6.js"></script>
+</body>
+</html>

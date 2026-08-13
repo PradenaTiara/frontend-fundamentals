@@ -1,0 +1,893 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #F9F9FF;
+    color: #464555;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 1280px;
+    height: 64px;
+
+    margin: 0 auto;
+    padding: 0 64px;
+
+    background: #F9F9FF;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+}
+
+
+
+/* =========================
+   LOGO
+========================= */
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    text-decoration: none;
+    flex-shrink: 0;
+}
+
+.logo img {
+    width: 19px;
+    height: 18px;
+}
+
+.logo span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+    color: #3525CD;
+}
+
+/* =========================
+   CONTACT BUTTON
+========================= */
+
+.contact-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 91.41px;
+    height: 40px;
+
+    padding: 8px 16px;
+
+    border-radius: 8px;
+
+    text-decoration: none;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #FFFFFF;
+    background-color: #3525CD;
+
+    flex-shrink: 0;
+}
+
+.section-header {
+    width: 100%;
+    height: 240px;
+
+    padding-left: 192px;
+    padding-right: 192px;
+
+    margin-top: 80px;
+}
+
+.technology-card img {
+    width: 48px;
+    height: 48px;
+
+    border-radius: 8px;
+}
+
+.section-header h1{
+    width: 636.68px;
+    height: 112px;
+
+    margin: 0 auto;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.96px;
+    text-align: center;
+
+    color: #111C2D;
+}
+
+.section-header p {
+    width: 742.3px;
+    height: 56px;
+
+    margin: 16px auto 0;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-align: center;
+
+    color: #464555;
+}
+
+.technology-cards {
+    display: grid;
+
+    width: 1152px;
+    height: 286px;
+
+    padding-top: 48px;
+    margin: 0 auto;
+
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.technology-card {
+    width: 368px;
+    height: 238px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 15px -3px #1E293B0D;
+    border: 1px solid #C7C4D8;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.technology-card h2{
+    width: 318px;
+    height: 32px;
+
+    margin: 0;
+
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0;
+
+    color: #111C2D;
+}
+
+.technology-card p {
+    width: 318px;
+    height: 72px;
+
+    margin: 0;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+
+    color: #464555;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+
+    width: 672px;
+    max-width: 100%;
+    height: 598px;
+
+    margin: 80px auto 40px;
+
+    padding: 48px;
+
+    gap: 24px;
+
+    border: 1px solid #C7C4D8;
+    border-radius: 12px;
+
+    background: #FFFFFF;
+}
+
+.contact h2 {
+    width: 182.73px;
+    height: 40px;
+
+    margin: 0 auto;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.32px;
+    text-align: center;
+
+    color: #111C2D;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    gap: 16px;
+}
+
+.contact form > div {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact label {
+    display: block;
+
+    width: 100%;
+    max-width: 574px;
+    height: 20px;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.14px;
+
+    color: #464555;
+}
+
+.contact input {
+    width: 100%;
+    max-width: 574px;
+    height: 49px;
+
+    padding: 14px 12px;
+
+    border: 1px solid #C7C4D8;
+    border-radius: 8px;
+
+    background: #F9F9FF;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0;
+
+    color: #6B7280;
+}
+
+.contact textarea {
+    width: 100%;
+    max-width: 574px;
+    height: 122px;
+
+    padding: 12px;
+
+    border: 1px solid #C7C4D8;
+    border-radius: 8px;
+
+    background: #F9F9FF;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0;
+
+    color: #6B7280;
+
+    resize: vertical;
+}
+
+.contact button {
+    width: 100%;
+    max-width: 574px;
+    height: 48px;
+
+    padding: 12px 24px;
+
+    border: none;
+    border-radius: 8px;
+
+    background: #3525CD;
+
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    width: 100%;
+    height: 69px;
+
+    padding: 24px 0;
+
+    background: #F0F3FF;
+    border-top: 1px solid #C7C4D8;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 1280px;
+    height: 20px;
+
+    margin: 0 auto;
+    padding: 0 64px;
+}
+
+.footer-content a {
+    text-decoration: none;
+}
+
+.footer-content .logo-footer {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.14px;
+
+    color: #3525CD;
+}
+
+.footer-content nav ul {
+    display: flex;
+    align-items: center;
+
+    list-style: none;
+
+    margin: 0;
+    padding: 0;
+
+    gap: 24px;
+}
+
+.footer-content nav a {
+    text-decoration: none;
+
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #464555;
+}
+
+.footer-content .main-nav a.active {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.14px;
+    vertical-align: middle;
+
+    width: 64.23px;
+    height: 20px;
+    color: #3525CD;
+}
+
+.footer-content p {
+    margin: 0;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.14px;
+
+    color: #4648D4;
+}
+
+/* =========================
+   TABLET
+========================= */
+
+@media (max-width: 1000px) {
+
+    header {
+        padding: 0 32px;
+    }
+
+    .section-header {
+        height: auto;
+
+        padding-left: 64px;
+        padding-right: 64px;
+    }
+
+    .section-header h1 {
+        width: 100%;
+        max-width: 636.68px;
+
+        font-size: 42px;
+        line-height: 50px;
+    }
+
+    .section-header p {
+        width: 100%;
+        max-width: 742.3px;
+    }
+
+    .technology-cards {
+        width: calc(100% - 64px);
+        height: auto;
+
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+    }
+
+    .technology-card {
+        width: 100%;
+        height: 238px;
+
+        padding: 20px;
+    }
+
+    .technology-card h2 {
+        width: 100%;
+
+        font-size: 22px;
+    }
+
+    .technology-card p {
+        width: 100%;
+    }
+
+    .contact {
+        width: calc(100% - 64px);
+        max-width: 672px;
+
+        height: auto;
+        min-height: 598px;
+
+        padding: 40px;
+    }
+
+    .contact label,
+    .contact input,
+    .contact textarea,
+    .contact button {
+        width: 100%;
+        max-width: none;
+    }
+
+    .footer-content {
+        padding: 0 32px;
+    }
+}
+
+
+/* =========================
+   TABLET / SMALL SCREEN
+========================= */
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 0 24px;
+    }
+
+    .section-header {
+        margin-top: 56px;
+    }
+
+    .logo span {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .contact-button {
+        width: auto;
+        height: 38px;
+
+        padding: 7px 14px;
+
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    /* SECTION HEADER */
+
+    .section-header {
+        width: 100%;
+        height: auto;
+
+        padding: 0 24px;
+    }
+
+    .section-header h1 {
+        width: 100%;
+        height: auto;
+
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: -0.7px;
+    }
+
+    .section-header p {
+        width: 100%;
+        height: auto;
+
+        margin-top: 16px;
+
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+
+    /* TECHNOLOGY CARDS */
+
+    .technology-cards {
+        width: calc(100% - 48px);
+        height: auto;
+
+        padding-top: 32px;
+
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .technology-card {
+        width: 100%;
+        height: auto;
+        min-height: 238px;
+
+        padding: 20px;
+    }
+
+    .technology-card img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .technology-card h2 {
+        width: 100%;
+        height: auto;
+
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .technology-card p {
+        width: 100%;
+        height: auto;
+
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+    /* CONTACT */
+
+    .contact {
+        width: calc(100% - 48px);
+
+        height: auto;
+        min-height: 598px;
+
+        margin: 64px auto 32px;
+
+        padding: 32px 24px;
+    }
+
+    .contact h2 {
+        width: 100%;
+        height: auto;
+
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .contact label,
+    .contact input,
+    .contact textarea,
+    .contact button {
+        width: 100%;
+        max-width: none;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        height: auto;
+
+        padding: 20px 24px;
+    }
+
+    .footer-content {
+        height: auto;
+
+        padding: 0;
+
+        gap: 16px;
+    }
+
+    .footer-content nav ul {
+        gap: 16px;
+    }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 600px) {
+
+    header {
+        height: auto;
+        min-height: 64px;
+
+        padding: 16px 20px;
+
+        flex-wrap: wrap;
+
+        gap: 16px;
+    }
+
+    .section-header {
+        margin-top: 40px;
+    }
+
+    .logo span {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .logo img {
+        width: 17px;
+        height: 17px;
+    }
+
+    .contact-button {
+        height: 36px;
+
+        padding: 6px 12px;
+
+        font-size: 13px;
+    }
+
+
+    /* SECTION HEADER */
+
+    .section-header {
+        padding: 0 20px;
+    }
+
+    .section-header h1 {
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.5px;
+    }
+
+    .section-header p {
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+
+    /* TECHNOLOGY CARDS */
+
+    .technology-cards {
+        width: calc(100% - 40px);
+
+        padding-top: 24px;
+
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .technology-card {
+        width: 100%;
+        min-height: 238px;
+
+        padding: 24px;
+    }
+
+    .technology-card h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .technology-card p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    /* CONTACT */
+
+    .contact {
+        width: calc(100% - 40px);
+
+        margin: 48px auto 24px;
+
+        padding: 24px 16px;
+
+        min-height: auto;
+    }
+
+    .contact h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .contact form {
+        gap: 16px;
+    }
+
+    .contact form > div {
+        gap: 8px;
+    }
+
+    .contact input {
+        height: 48px;
+
+        padding: 12px;
+    }
+
+    .contact textarea {
+        height: 120px;
+
+        padding: 12px;
+    }
+
+    .contact button {
+        height: 48px;
+
+        padding: 12px 24px;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        padding: 20px;
+    }
+
+    .footer-content {
+        flex-direction: column;
+
+        height: auto;
+
+        text-align: center;
+
+        gap: 12px;
+    }
+
+    .footer-content nav ul {
+        justify-content: center;
+
+        gap: 12px;
+    }
+}
+
+
+/* =========================
+   VERY SMALL MOBILE
+========================= */
+
+@media (max-width: 400px) {
+
+    header {
+        padding: 14px 16px;
+    }
+
+    .section-header {
+        margin-top: 32px;
+    }
+
+    .logo span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .contact-button {
+        padding: 6px 10px;
+
+        font-size: 12px;
+    }
+
+
+    /* SECTION HEADER */
+
+    .section-header {
+        padding: 0 16px;
+    }
+
+    .section-header h1 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .section-header p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    /* TECHNOLOGY */
+
+    .technology-cards {
+        width: calc(100% - 32px);
+
+        gap: 12px;
+    }
+
+    .technology-card {
+        padding: 20px;
+    }
+
+    .technology-card h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .technology-card p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+
+    /* CONTACT */
+
+    .contact {
+        width: calc(100% - 32px);
+
+        margin-top: 32px;
+
+        padding: 20px 16px;
+    }
+
+    .contact h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+
+    /* FOOTER */
+
+    footer {
+        padding: 16px;
+    }
+
+    .footer-content nav ul {
+        gap: 10px;
+    }
+
+    .footer-content nav a,
+    .footer-content p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
