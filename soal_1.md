@@ -1,5 +1,3 @@
-Berikut versi yang siap dimasukkan ke file **`.md`**:
-
 # Perbedaan Elemen `<article>` dan `<section>` dalam HTML5
 
 Berdasarkan spesifikasi HTML5 dan dokumentasi MDN Web Docs, `<article>` dan `<section>` merupakan elemen semantik yang digunakan untuk memberikan struktur dan makna pada konten halaman web. Meskipun keduanya dapat digunakan untuk mengelompokkan konten, tujuan penggunaannya berbeda.
